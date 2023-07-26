@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.end{
+   background-color: cadetblue;
+    padding: 12px 49px;
+    display: flex;
+    justify-content: space-around;
+}
+.end button{
+   cursor: pointer;
+   background: transparent;
+   border: none;
+   font-size: 34px;
+   position: absolute;
+   right:  5%;
+visibility: hidden;
+}
+.end ul{
+   display: flex;
+   list-style: none;
+   margin-top: 12px;
+   visibility: visible;;
+   
+   
+}
+.end h1{
+   color: white;
+}
+
+.end ul li a{
+   text-decoration: none;
+   padding: 20px;
+   padding: 25px;
+   color: white;
+font-size: 23px;
+color: white;
+}
+
+.end .but{
+   background: transparent;
+   border: 0;
+   opacity: 0;
+   color: white;
+  visibility: hidden;
+}
+@media screen and (max-width: 500px) {
+
+
+   .end button{
+visibility:visible;
+      position:absolute ;
+      top: 2%;
+   }
+
+
+   .end {
+      flex-direction: column;
+         background-color: rgba(26, 29, 25, 0.39);
+         border-radius: 4px;
+   }
+   .end ul{
+      text-align: center;
+     
+      display:block;
+   
+   }
+   .end ul li{
+      padding: 12px;
+   }
+.end .but {
+visibility: visible;
+   opacity: 1;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .footer h1{
+    text-align: center;
+} */
+/* .parent{
+
+    height: 700px;
+    background-image: url(https://images.pexels.com/photos/951539/pexels-photo-951539.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+} */
+
+/* .footer{
+    margin-top: 30%;
+    background-color: rgb(175, 119, 119);
+    padding: 30px 10px;
+ height: 160px;
+} */
+/* 
+ .head {
+    padding: 20px;
+    background-color: rgb(64, 105, 119);
+color: white;
+text-align: center;
+ } */
+ .footr{
+   background-color: cadetblue;
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    width: 100%;
+ }
+/* 
+
+ .Menu{
+    display: flex;
+    gap: 20px;
+ }
+ .Menu img{
+    width: 200px;
+    height: 150px;
+    border-radius: 6px;
+ } */
+/* .Menu button{
+background-color: rgb(255, 188, 63);
+padding: 8px;
+border: none;
+margin-top: 25px;
+border-radius: 4px;
+}
+.Menu p ,h5{
+    margin-top: 20px;
+} */
+/* .menu-parent{
+    margin-top: 63px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 350px 350px;
+    gap: 6%;
+}  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.sawir img{
+    height: 250px;
+    width: 400px;
+    }
+    .par p{
+       padding-top: 1px;
+       line-height: 29px;
+       font-size: 18px;
+       font-family: sans-serif;
+       text-align: justify;
+    }
+    .par{
+       padding: 2px 23px;
+    }
+    .bot button{
+       width: 100px;
+       padding: 12px;
+       color: black;
+       border: none;
+     
+       border-radius: 5px;
+       font-size: 18px;
+    margin-left: 23px;
+    }
+    .bott{
+       display: grid;
+       grid-template-columns: 100px 100px 100px;
+       gap: 12px;
+       row-gap: 12px;
+    }
+    .parent{
+    justify-content: center;
+       border: 1px solid gray;
+       width: 400px;
+       height: 600px;
+       position: absolute;
+       left: 37%;
+       top: 12%;
+    }  */
+
+
+  .state{
+   box-shadow: 2px 2px 2px 2px rgb(228, 227, 227);
+text-align: center;
+margin-top: 10%;
+
+width: 490px;
+height: 300px;
+position: absolute;
+left: 35%;
+  }
+  .state button{
+   padding: 10px 20px;
+   border: none;
+   background-color: cadetblue;
+   color: white;
+   font-size: 23px;
+   border-radius: 4px;
+   margin-left: 13px;
+   box-shadow: 2px 2px 2px grey;
+  }
+  .state h1{
+   font-size: 60px;
+   margin-top: 16%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .dash .but1 {
+position:absolute;
+background:transparent;
+color: white;
+font-size: 24px;
+border: none;
+top: 23px;
+left: 13%;
+  }
+  .dash .but2 {
+position:absolute;
+background:transparent;
+color: white;
+font-size: 24px;
+border: none;
+top: 23px;
+left: 13%;
+  }
+
+
+  .dash{
+   transition: width 0.5s;
+   background-color: #1D5B79;
+   height: 100vh;
+   width: 15%;
+   text-align: center;
+padding-top: 6%;
+overflow: hidden;
+
+  }
+  .dash ul li {
+   padding: 12px;
+   color: white;
+   font-size: 24PX;
+  }
+  .dash ul{
+   padding-left: 42px;
+   list-style: none;
+  }
+.parent1{
+   display: flex;
+   gap: 2%;
+}
+.parent1 .qoraal{
+  width: 60%;
+gap: 12px;
+   display: flex;
+}
+.parent1 .qoraal h1{
+   
+   margin-top: 4%;
+   padding-left: 72px;
+background-color: #1D5B79;
+height: 200px;
+width: 450px;
+border-radius: 3px;
+
+}
+.parent1 .qoraal h2{
+
+   margin-top: 1%;
+   padding-left: 52px;
+   color:#468B97;
+background-color:#468B97;
+box-shadow: 2px 2px 2px 2px rgb(214, 213, 213);
+height:200px;
+width: 260px;
+border-radius: 4px;
+
+}
+.parent1 .qoraal .qoral1{
+   margin-top: 1%;
+   color: #EF6262;
+   box-shadow: 2px 2px 2px 2px rgb(214, 213, 213);
+   background-color: #EF6262;
+   height:200px;
+   width: 260px;
+   border-radius: 4px;
+   
+}
+.parent1 .qoraal h1{
+   margin-top: 1%;
+color: #1D5B79;
+box-shadow: 2px 2px 2px 2px rgb(214, 213, 213);
+background-color: #1D5B79;
+height:200px;
+width: 260px;
+border-radius: 4px;
+
+}
+.active{
+   background-color: #EF6262;
+   padding: 12px;
+   border-radius: 3px;
+}
+
+.dash ul li a{
+   text-decoration: none;
+   color: white;
+}
+.dash ul li:hover{
+   background-color: #43aee49c;
+   border-radius: 1rem;
+
+}
+.container{
+ 
+   background-color:#468B97;
+   height: 500vh;
+   width: 100%;
+   padding-top: 6%;
+}
+.container h1{
+   color: white;
+   font-size: 34px;
+   text-align: center;
+}
+.form{
+   text-align: center;
+}
+.form label{
+   font-size: 29px;
+color: white;
+position: absolute;
+left: 37%;
+
+
+
+}
+.form button{
+   width: 60px;
+   border: none;
+   height: 40px;
+   color: white;
+   background-color:#EF6262;
+   border-radius: 4px;
+   margin-left: 6px;
+   font-size: 18px;
+}
+.form input{
+   margin-top: 2%;
+   border: none;
+   outline: none;
+   width: 400px;
+   height: 40px;
+   padding: 0px 20px;
+   border-radius: 3px;
+
+}
+.item-parent{
+   display: flex;
+   justify-content: center;
+}
+.item{
+   margin-top: 12px;
+   width: 490px;
+   background-color:#1d5a7975;
+   padding: 12px;
+   border-radius: 9px;
+   text-align: start;
+   
+}
+.item p{
+   color: white;
+   font-size: 18px;
+
+}
+.item h5{
+   color: white;
+   font-size: 20px;
+
+}
+/* .container button{
+   width: 90px;
+   border: none;
+   height: 40px;
+   color: white;
+   position:absolute;
+   right: 75%;
+   background-color:#EF6262;
+   border-radius: 4px;
+   margin-left: 6px;
+   font-size: 18px;
+} */
